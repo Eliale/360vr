@@ -95,9 +95,15 @@
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardAndroidDevice.cs" />
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
     <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\control.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\controlcubos.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\cubosarit.cs" />
     <Compile Include="Assets\Cardboard\Scripts\get.cs" />
     <Compile Include="Assets\Cardboard\Scripts\menunivel.cs" />
     <Compile Include="Assets\Cardboard\Scripts\post.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\prueba.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\reactivosari.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\variables.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
