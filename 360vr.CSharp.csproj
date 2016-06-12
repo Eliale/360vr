@@ -98,11 +98,17 @@
     <Compile Include="Assets\Cardboard\Scripts\control.cs" />
     <Compile Include="Assets\Cardboard\Scripts\controlcubos.cs" />
     <Compile Include="Assets\Cardboard\Scripts\cubosarit.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\cubossem.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\cubossem2.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\cubossem3.cs" />
     <Compile Include="Assets\Cardboard\Scripts\get.cs" />
     <Compile Include="Assets\Cardboard\Scripts\menunivel.cs" />
     <Compile Include="Assets\Cardboard\Scripts\post.cs" />
     <Compile Include="Assets\Cardboard\Scripts\prueba.cs" />
     <Compile Include="Assets\Cardboard\Scripts\reactivosari.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\reactivosem2.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\reactivosem3.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\reactivossem.cs" />
     <Compile Include="Assets\Cardboard\Scripts\variables.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -111,6 +117,7 @@
     <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
     <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\archibase.net.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

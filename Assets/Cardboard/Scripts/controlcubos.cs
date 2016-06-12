@@ -46,7 +46,7 @@ public class controlcubos : MonoBehaviour, ICardboardGazeResponder
             {
                 GameObject.Find("letrero").GetComponent<TextMesh>().text = "CARGADO!!!!";
                 fun = false;
-                SceneManager.LoadScene("ari1");
+                SceneManager.LoadScene(acargar);
             }
         }
     }
