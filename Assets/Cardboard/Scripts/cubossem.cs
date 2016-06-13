@@ -12,7 +12,8 @@ public class cubossem : MonoBehaviour {
     private bool fun;
     public int numerocubo;
     private int respuesta = 0;
-
+    private string url = "https://logical-children.herokuapp.com/users/authentication.txt?";
+    private int preguntaactual = variables.npa;
     void Awake()
     {
 
@@ -60,9 +61,17 @@ public class cubossem : MonoBehaviour {
                 {
                     variables.npa = 2;
                     GameObject.Find("letrero").GetComponent<TextMesh>().text = "la respuesta es: helicóptero";
+                    url = "https://logical-children.herokuapp.com/students/history?";
+
+                    url = url + "student_id=" + variables.id + "&nivel=" + (variables.modo - 1) + "&intentos_fallidos=" + variables.intentos_fallidos + "&modulo_evaluado=" + 1 + "&num_pregunta=" + preguntaactual + "&acerto_pregunta=" + "1";
+                    Debug.Log(url);
+                    WWW www = new WWW(url);
+                    StartCoroutine("GetdataEnumerator", www);
+                    variables.intentos_fallidos = 0;
                     SceneManager.LoadScene("sem2");
 
                 }
+                
             }
         }
     }

@@ -8,9 +8,19 @@ public class controlcubos : MonoBehaviour, ICardboardGazeResponder
     private float ini;
     private float tiempo=variables.tiempo;
     private bool fun;
-    void Start()
+    void Awake()
     {
-
+        if ((variables.m1 && variables.m2) && variables.m3)
+        {
+            variables.modo = variables.modo + 1;
+            if (variables.modo > 3)
+            {
+                variables.modo = 3;
+            }
+            variables.m1 = false;
+            variables.m2 = false;
+            variables.m3 = false;
+        }
     }
 
     public void SetGazedAt(bool gazedAt)
@@ -46,6 +56,7 @@ public class controlcubos : MonoBehaviour, ICardboardGazeResponder
             {
                 GameObject.Find("letrero").GetComponent<TextMesh>().text = "CARGADO!!!!";
                 fun = false;
+               
                 SceneManager.LoadScene(acargar);
             }
         }

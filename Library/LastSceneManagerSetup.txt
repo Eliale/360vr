@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Cardboard/DemoScene/sem3.unity
+- path: Assets/Cardboard/DemoScene/ser2.unity
   isLoaded: 1
   isActive: 1

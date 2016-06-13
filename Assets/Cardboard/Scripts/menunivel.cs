@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using System;
 
 public class menunivel : MonoBehaviour {
 
@@ -63,9 +64,9 @@ public class menunivel : MonoBehaviour {
                 string[] fullName = serviceData.Split(',');
                 variables.id = fullName[0].Split('=')[1];
                 variables.username = fullName[1].Split('=')[1];
-                variables.nivel = fullName[2].Split('=')[1];
-                variables.intentos_fallidos = fullName[3].Split('=')[1];
-                variables.modulo_evaluado = fullName[4].Split('=')[1];
+                variables.modo = Convert.ToInt32(fullName[2].Split('=')[1])+1;
+                //variables.intentos_fallidos = fullName[3].Split('=')[1];
+                //variables.modulo_evaluado = fullName[4].Split('=')[1];
                 SceneManager.LoadScene("DemoScene");
             }
             else

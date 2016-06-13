@@ -23,7 +23,8 @@ public class control : MonoBehaviour {
     {
         user = variables.username;
         GUI.Box(new Rect((Screen.width) * 0.85f, (Screen.height / 2) * 0.10f, (Screen.width) * 0.12f, (Screen.height) * 0.08f), "Usuario");
-        GUI.Label(new Rect((Screen.width ) * 0.85f, (Screen.height / 2) * 0.11f, (Screen.width) * 0.12f, (Screen.height) * 0.10f), ""+user,estilo);
+        GUI.Label(new Rect((Screen.width ) * 0.85f, (Screen.height / 2) * 0.08f, (Screen.width) * 0.12f, (Screen.height) * 0.10f), ""+user,estilo);
+        GUI.Label(new Rect((Screen.width) * 0.85f, (Screen.height / 2) * 0.13f, (Screen.width) * 0.12f, (Screen.height) * 0.10f), "" + variables.modo, estilo);
 
     }
     void Update()

@@ -7,11 +7,13 @@ public class cubosarit : MonoBehaviour {
 
     //public string acargar;
     private int npregunta = variables.npa;
+    private int preguntaactual = variables.npa;
     private float ini;
     private float tiempo = variables.tiempo;
     private bool fun;
     public int numerocubo;
     private int respuesta = 0;
+    private string url = "https://logical-children.herokuapp.com/users/authentication.txt?";
 
     void Awake()
     {
@@ -74,14 +76,14 @@ public class cubosarit : MonoBehaviour {
        
         if (fun)
         {
-            //GameObject.Find("letrero").GetComponent<TextMesh>().text = ""+ (int)(Time.time - ini);
+            //GameObject.Find("letrero").GetComponent<TextMesh>().text = ""+ (Time.time - ini);
 
             if ((Time.time - ini) >= tiempo)
             {
                 GameObject.Find("letrero").GetComponent<TextMesh>().text = "CARGADO!!!!";
                 fun = false;
                 //se evalua la respuesta para saber si ser pasa al siguente nivel
-                
+
                 int op = 0;
                 
 
@@ -127,6 +129,23 @@ public class cubosarit : MonoBehaviour {
                 if (op == respuesta)
                 {
                     npregunta = npregunta + 1;
+                    url = "https://logical-children.herokuapp.com/students/history?";
+                    GameObject.Find("letrero").GetComponent<TextMesh>().text = "la respuesta es:" + variables.respuesta;
+                    url = url + "student_id=" + variables.id + "&nivel=" + (variables.modo - 1) + "&intentos_fallidos=" + variables.intentos_fallidos + "&modulo_evaluado=" + 0 + "&num_pregunta=" + preguntaactual + "1";
+                    Debug.Log(url);
+                    WWW www = new WWW(url);
+                    StartCoroutine("GetdataEnumerator", www);
+                    variables.intentos_fallidos = 0;
+                }
+                else
+                {
+                    variables.intentos_fallidos = variables.intentos_fallidos + 1;
+                    url = "https://logical-children.herokuapp.com/students/history?";
+
+                    url = url + "student_id=" + variables.id + "&nivel=" + (variables.modo - 1) + "&intentos_fallidos=" + variables.intentos_fallidos + "&modulo_evaluado=" + 0 + "&num_pregunta=" + preguntaactual + "0";
+                    Debug.Log(url);
+                    WWW www = new WWW(url);
+                    StartCoroutine("GetdataEnumerator", www);
                 }
 
                 
@@ -134,17 +153,48 @@ public class cubosarit : MonoBehaviour {
                 if (npregunta > 3)
                 {
                     npregunta = 1;
-                    variables.npa = npregunta;
+                    variables.npa = 1;
+                    variables.m1 = true;
                     SceneManager.LoadScene("DemoScene");
                 }
                 else
                 {
                     variables.npa = npregunta;
-                    GameObject.Find("letrero").GetComponent<TextMesh>().text = "la respuesta es:" + variables.respuesta;
                     SceneManager.LoadScene("ari1");
 
                 }
             }
         }
     }
+
+
+
+IEnumerator GetdataEnumerator(WWW www)
+{
+    //Wait for request to complete
+
+    yield return www;
+
+    if (www.error == null)
+    {
+
+        string serviceData = www.text;
+
+        if (serviceData == "OK")
+        {
+                Debug.Log("Datos ENVIADOS CON EXITO");
+            }
+        else
+        {
+            Debug.Log("Datos erroneos");
+        }
+    }
+    else
+    {
+        Debug.Log(www.error);
+    }
+}
+
+
+
 }

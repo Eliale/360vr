@@ -3,6 +3,9 @@ using System.Collections;
 
 public static class variables  {
     public static int modo = 1;
+    public static bool m1 = false;
+    public static bool m2 = false;
+    public static bool m3 = false;
     public static int numerofallos = 0;
     public static float timepo1 = 5.0f;
     public static float timepo2 = 3.0f;
@@ -11,7 +14,7 @@ public static class variables  {
     public static string username="PRUEBA";
     public static string id;
     public static string nivel;
-    public static string intentos_fallidos;
+    public static int intentos_fallidos=0;
     public static string modulo_evaluado;
     public static int npa = 1;
     public static int respuesta = 1;
