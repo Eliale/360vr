@@ -7,9 +7,9 @@ public static class variables  {
     public static bool m2 = false;
     public static bool m3 = false;
     public static int numerofallos = 0;
-    public static float timepo1 = 5.0f;
-    public static float timepo2 = 3.0f;
-    public static float timepo3 = 2.0f;
+    public static float timepo1 = 10.0f;
+    public static float timepo2 = 6.0f;
+    public static float timepo3 = 4.0f;
     public static float tiempo = 1.0f;
     public static string username="PRUEBA";
     public static string id;
