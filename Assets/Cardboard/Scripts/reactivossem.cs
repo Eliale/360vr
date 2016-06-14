@@ -23,8 +23,13 @@ public class reactivossem : MonoBehaviour {
             //GameObject.Find("letrero").GetComponent<TextMesh>().text = "timepo" + (Time.time - inicio);
             if ((Time.time - inicio) >= variables.timepo1)
             {
-                GameObject.Find("p").GetComponent<TextMesh>().text = "";
-                GameObject.Find("letrero").GetComponent<TextMesh>().text = "intentalo de nuevo\nla respuesta es:\n" + "helicóptero";
+				if (variables.intentos_fallidos >= 3) {
+					GameObject.Find ("p").GetComponent<TextMesh> ().text = "";
+					GameObject.Find ("letrero").GetComponent<TextMesh> ().text = "intentalo de nuevo\nla respuesta es:\n" + "helicóptero";
+				}else {
+					GameObject.Find ("p").GetComponent<TextMesh> ().text = "";
+					GameObject.Find ("letrero").GetComponent<TextMesh> ().text = "intentalo de nuevo";
+				}
                 
                 if ((Time.time - inicio) >= (variables.timepo1 + 1.5))
                 {
@@ -43,8 +48,13 @@ public class reactivossem : MonoBehaviour {
             //GameObject.Find("letrero").GetComponent<TextMesh>().text = "timepo" + (Time.time - inicio);
             if ((Time.time - inicio) >= variables.timepo2)
             {
-                GameObject.Find("p").GetComponent<TextMesh>().text = "";
-                GameObject.Find("letrero").GetComponent<TextMesh>().text = "intentalo de nuevo\nla respuesta es:\n" + "helicóptero";
+				if (variables.intentos_fallidos >= 3) {
+					GameObject.Find ("p").GetComponent<TextMesh> ().text = "";
+					GameObject.Find ("letrero").GetComponent<TextMesh> ().text = "intentalo de nuevo\nla respuesta es:\n" + "helicóptero";
+				}else {
+					GameObject.Find ("p").GetComponent<TextMesh> ().text = "";
+					GameObject.Find ("letrero").GetComponent<TextMesh> ().text = "intentalo de nuevo";
+				}
                 
                 if ((Time.time - inicio) >= (variables.timepo1 + 1.5))
                 {
@@ -63,8 +73,13 @@ public class reactivossem : MonoBehaviour {
             //GameObject.Find("letrero").GetComponent<TextMesh>().text = "timepo" + (Time.time - inicio);
             if ((Time.time - inicio) >= variables.timepo3)
             {
-                GameObject.Find("p").GetComponent<TextMesh>().text = "";
-                GameObject.Find("letrero").GetComponent<TextMesh>().text = "intentalo de nuevo\nla respuesta es:\n" + "helicóptero";
+				if (variables.intentos_fallidos >= 3) {
+					GameObject.Find ("p").GetComponent<TextMesh> ().text = "";
+					GameObject.Find ("letrero").GetComponent<TextMesh> ().text = "intentalo de nuevo\nla respuesta es:\n" + "helicóptero";
+				}else {
+					GameObject.Find ("p").GetComponent<TextMesh> ().text = "";
+					GameObject.Find ("letrero").GetComponent<TextMesh> ().text = "intentalo de nuevo";
+				}
                 if ((Time.time - inicio) >= (variables.timepo1 + 1.5))
                 {
                     url = "https://logical-children.herokuapp.com/students/history?";

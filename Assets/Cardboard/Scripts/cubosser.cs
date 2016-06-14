@@ -63,7 +63,7 @@ public class cubosser : MonoBehaviour {
                     GameObject.Find("letrero").GetComponent<TextMesh>().text = "la respuesta es: rostro triste";
                     url = "https://logical-children.herokuapp.com/students/history?";
 
-                    url = url + "student_id=" + variables.id + "&nivel=" + (variables.modo - 1) + "&intentos_fallidos=" + variables.intentos_fallidos + "&modulo_evaluado=" + 2 + "&num_pregunta=" + preguntaactual + "1";
+					url = url + "student_id=" + variables.id + "&nivel=" + (variables.modo - 1) + "&intentos_fallidos=" + variables.intentos_fallidos + "&modulo_evaluado=" + 2 + "&num_pregunta=" + preguntaactual + "&acerto_pregunta=" + "1";
                     Debug.Log(url);
                     WWW www = new WWW(url);
                     StartCoroutine("GetdataEnumerator", www);

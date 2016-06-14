@@ -81,8 +81,11 @@
      <Compile Include="Assets\Cardboard\Scripts\cubosser2.cs" />
      <Compile Include="Assets\Cardboard\Scripts\cubosser3.cs" />
      <Compile Include="Assets\Cardboard\Scripts\get.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\ir.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\menu.cs" />
      <Compile Include="Assets\Cardboard\Scripts\menunivel.cs" />
      <Compile Include="Assets\Cardboard\Scripts\post.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\presenta.cs" />
      <Compile Include="Assets\Cardboard\Scripts\prueba.cs" />
      <Compile Include="Assets\Cardboard\Scripts\reactivore3.cs" />
      <Compile Include="Assets\Cardboard\Scripts\reactivosari.cs" />
@@ -91,6 +94,8 @@
      <Compile Include="Assets\Cardboard\Scripts\reactivoser2.cs" />
      <Compile Include="Assets\Cardboard\Scripts\reactivossem.cs" />
      <Compile Include="Assets\Cardboard\Scripts\reactivosser.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\regresar.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\stuto.cs" />
      <Compile Include="Assets\Cardboard\Scripts\variables.cs" />
      <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
      <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
