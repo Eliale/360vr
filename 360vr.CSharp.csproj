@@ -58,12 +58,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -115,6 +109,7 @@
     <Compile Include="Assets\Cardboard\Scripts\menu.cs" />
     <Compile Include="Assets\Cardboard\Scripts\menunivel.cs" />
     <Compile Include="Assets\Cardboard\Scripts\post.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\presenta.cs" />
     <Compile Include="Assets\Cardboard\Scripts\prueba.cs" />
     <Compile Include="Assets\Cardboard\Scripts\reactivore3.cs" />
     <Compile Include="Assets\Cardboard\Scripts\reactivosari.cs" />
@@ -124,6 +119,7 @@
     <Compile Include="Assets\Cardboard\Scripts\reactivossem.cs" />
     <Compile Include="Assets\Cardboard\Scripts\reactivosser.cs" />
     <Compile Include="Assets\Cardboard\Scripts\regresar.cs" />
+    <Compile Include="Assets\Cardboard\Scripts\stuto.cs" />
     <Compile Include="Assets\Cardboard\Scripts\variables.cs" />
   </ItemGroup>
   <ItemGroup>
