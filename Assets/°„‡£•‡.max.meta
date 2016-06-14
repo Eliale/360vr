@@ -4,7 +4,969 @@ timeCreated: 1465244026
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: Ayna_dikiz
+    100002: Backlight
+    100004: Backlight white
+    100006: Backlight white01
+    100008: Backlight01
+    100010: "Backlight\u58F3"
+    100012: "Backlight\u58F301"
+    100014: Box01
+    100016: Box02
+    100018: Box03
+    100020: Box06
+    100022: Box07
+    100024: Box08
+    100026: Box09
+    100028: Box10
+    100030: Box11
+    100032: Camera01
+    100034: Camera01 1
+    100036: Camera01.Target
+    100038: Camera01.Target 1
+    100040: Camera02
+    100042: Camera02.Target
+    100044: ChamferBox02
+    100046: ChamferBox03
+    100048: ChamferBox04
+    100050: ChamferBox05
+    100052: ChamferBox06
+    100054: Cylinder01
+    100056: Cylinder02
+    100058: Cylinder03
+    100060: Cylinder04
+    100062: Cylinder05
+    100064: Cylinder06
+    100066: Cylinder07
+    100068: Cylinder08
+    100070: Cylinder09
+    100072: Cylinder10
+    100074: Cylinder11
+    100076: Cylinder29
+    100078: Cylinder30
+    100080: Cylinder31
+    100082: Cylinder32
+    100084: Glass
+    100086: Glass05
+    100088: Glass06
+    100090: Glass2
+    100092: Glass3
+    100094: Group08
+    100096: Line01
+    100098: Line01 1
+    100100: Line03
+    100102: Line04
+    100104: Line04 1
+    100106: Line07
+    100108: Line47
+    100110: Line48
+    100112: Line49
+    100114: Line50
+    100116: Line51
+    100118: Line52
+    100120: mr Area Spot01
+    100122: mr Area Spot01.Target
+    100124: mr Area Spot02
+    100126: mr Area Spot02.Target
+    100128: Object03
+    100130: Plane01
+    100132: Plane03
+    100134: Plane03 1
+    100136: Plane04
+    100138: Plane04 1
+    100140: Plane05
+    100142: Plane05 1
+    100144: Plane06
+    100146: Plane06 1
+    100148: Plane07
+    100150: Plane07 1
+    100152: Plane08
+    100154: Plane08 1
+    100156: Plane09
+    100158: Plane09 1
+    100160: Plane10
+    100162: Plane10 1
+    100164: Plane11
+    100166: Plane11 1
+    100168: Plane12
+    100170: Plane12 1
+    100172: Plane13
+    100174: Plane13 1
+    100176: Plane14
+    100178: Plane14 1
+    100180: Plane15
+    100182: Plane15 1
+    100184: Plane16
+    100186: Plane16 1
+    100188: Plane17
+    100190: Plane17 1
+    100192: Plane18
+    100194: Plane18 1
+    100196: Plane19
+    100198: Plane20
+    100200: Rectangle09
+    100202: Sky01
+    100204: Sphere01
+    100206: Sphere02
+    100208: Sphere03
+    100210: Sphere07
+    100212: Sphere08
+    100214: Sphere09
+    100216: Sphere10
+    100218: Torus01
+    100220: Tube01
+    100222: Tube02
+    100224: Tube02_MeshPart0
+    100226: Tube02_MeshPart1
+    100228: Tube03
+    100230: Tube04
+    100232: Tube04_MeshPart0
+    100234: Tube04_MeshPart1
+    100236: Tube05
+    100238: Tube06
+    100240: Tube07
+    100242: Tube09
+    100244: Tube10
+    100246: Tube11
+    100248: Tube12
+    100250: Tube13
+    100252: Tube13_MeshPart0
+    100254: Tube13_MeshPart1
+    100256: Tube14
+    100258: Tube15
+    100260: Tube15_MeshPart0
+    100262: Tube15_MeshPart1
+    100264: Tube16
+    100266: Tube17
+    100268: //RootNode
+    100270: "\u4E2D\u56FD\u7ED307"
+    100272: "\u5170\u535A\u57FA\u5C3C"
+    100274: "\u5BF9\u8C6101"
+    100276: "\u5BF9\u8C6102"
+    100278: "\u5BF9\u8C6103"
+    100280: "\u5BF9\u8C6104"
+    100282: "\u5BF9\u8C6105"
+    100284: "\u5BF9\u8C6106"
+    100286: "\u5BF9\u8C6107"
+    100288: "\u5BF9\u8C6108"
+    100290: "\u5BF9\u8C6109"
+    100292: "\u5BF9\u8C6110"
+    100294: "\u5BF9\u8C6111"
+    100296: "\u5BF9\u8C6112"
+    100298: "\u5BF9\u8C6113"
+    100300: "\u5BF9\u8C6114"
+    100302: "\u5BF9\u8C6114 1"
+    100304: "\u5BF9\u8C6115"
+    100306: "\u5BF9\u8C6116"
+    100308: "\u5BF9\u8C6117"
+    100310: "\u5BF9\u8C6118"
+    100312: "\u5BF9\u8C6119"
+    100314: "\u5BF9\u8C6120"
+    100316: "\u5BF9\u8C6121"
+    100318: "\u5BF9\u8C6122"
+    100320: "\u5BF9\u8C6123"
+    100322: "\u5BF9\u8C6124"
+    100324: "\u5BF9\u8C6125"
+    100326: "\u5BF9\u8C6126"
+    100328: "\u5BF9\u8C6127"
+    100330: "\u5BF9\u8C6128"
+    100332: "\u5BF9\u8C6129"
+    100334: "\u5BF9\u8C6130"
+    100336: "\u5BF9\u8C6131"
+    100338: "\u5BF9\u8C6132"
+    100340: "\u5BF9\u8C6133"
+    100342: "\u5BF9\u8C6134\u58F3"
+    100344: "\u5BF9\u8C6134\u58F301"
+    100346: "\u5BF9\u8C6135"
+    100348: "\u5BF9\u8C6136"
+    100350: "\u5BF9\u8C6137"
+    100352: "\u5BF9\u8C6138"
+    100354: "\u5BF9\u8C6139"
+    100356: "\u5BF9\u8C6140"
+    100358: "\u5BF9\u8C6141"
+    100360: "\u5BF9\u8C6142"
+    100362: "\u5BF9\u8C6143"
+    100364: "\u5BF9\u8C6144"
+    100366: "\u5BF9\u8C6145"
+    100368: "\u5BF9\u8C6146"
+    100370: "\u5BF9\u8C6148"
+    100372: "\u5BF9\u8C6149"
+    100374: "\u5BF9\u8C6150"
+    100376: "\u5BF9\u8C6151"
+    100378: "\u5BF9\u8C6152"
+    100380: "\u5BF9\u8C6154"
+    100382: "\u5BF9\u8C6154_MeshPart0"
+    100384: "\u5BF9\u8C6154_MeshPart1"
+    100386: "\u5BF9\u8C6155"
+    100388: "\u5BF9\u8C6156"
+    100390: "\u5BF9\u8C6157"
+    100392: "\u5BF9\u8C6159"
+    100394: "\u5BF9\u8C6160"
+    100396: "\u5BF9\u8C6161"
+    100398: "\u5BF9\u8C6162"
+    100400: "\u5BF9\u8C6163"
+    100402: "\u5BF9\u8C6165"
+    100404: "\u5BF9\u8C6166"
+    100406: "\u5BF9\u8C6166_MeshPart0"
+    100408: "\u5BF9\u8C6166_MeshPart1"
+    100410: "\u5BF9\u8C6167"
+    100412: "\u5BF9\u8C6168"
+    100414: "\u7EC403"
+    100416: "\u7EC403 1"
+    100418: "\u7EC404"
+    100420: "\u7EC405"
+    100422: "\u7EC406"
+    100424: "\u7EC407"
+    100426: "\u7EC408"
+    100428: "\u7EC409"
+    100430: "\u7EC411"
+    100432: "\u7EC412"
+    100434: "\u7EC413"
+    400000: Ayna_dikiz
+    400002: Backlight
+    400004: Backlight white
+    400006: Backlight white01
+    400008: Backlight01
+    400010: "Backlight\u58F3"
+    400012: "Backlight\u58F301"
+    400014: Box01
+    400016: Box02
+    400018: Box03
+    400020: Box06
+    400022: Box07
+    400024: Box08
+    400026: Box09
+    400028: Box10
+    400030: Box11
+    400032: Camera01
+    400034: Camera01 1
+    400036: Camera01.Target
+    400038: Camera01.Target 1
+    400040: Camera02
+    400042: Camera02.Target
+    400044: ChamferBox02
+    400046: ChamferBox03
+    400048: ChamferBox04
+    400050: ChamferBox05
+    400052: ChamferBox06
+    400054: Cylinder01
+    400056: Cylinder02
+    400058: Cylinder03
+    400060: Cylinder04
+    400062: Cylinder05
+    400064: Cylinder06
+    400066: Cylinder07
+    400068: Cylinder08
+    400070: Cylinder09
+    400072: Cylinder10
+    400074: Cylinder11
+    400076: Cylinder29
+    400078: Cylinder30
+    400080: Cylinder31
+    400082: Cylinder32
+    400084: Glass
+    400086: Glass05
+    400088: Glass06
+    400090: Glass2
+    400092: Glass3
+    400094: Group08
+    400096: Line01
+    400098: Line01 1
+    400100: Line03
+    400102: Line04
+    400104: Line04 1
+    400106: Line07
+    400108: Line47
+    400110: Line48
+    400112: Line49
+    400114: Line50
+    400116: Line51
+    400118: Line52
+    400120: mr Area Spot01
+    400122: mr Area Spot01.Target
+    400124: mr Area Spot02
+    400126: mr Area Spot02.Target
+    400128: Object03
+    400130: Plane01
+    400132: Plane03
+    400134: Plane03 1
+    400136: Plane04
+    400138: Plane04 1
+    400140: Plane05
+    400142: Plane05 1
+    400144: Plane06
+    400146: Plane06 1
+    400148: Plane07
+    400150: Plane07 1
+    400152: Plane08
+    400154: Plane08 1
+    400156: Plane09
+    400158: Plane09 1
+    400160: Plane10
+    400162: Plane10 1
+    400164: Plane11
+    400166: Plane11 1
+    400168: Plane12
+    400170: Plane12 1
+    400172: Plane13
+    400174: Plane13 1
+    400176: Plane14
+    400178: Plane14 1
+    400180: Plane15
+    400182: Plane15 1
+    400184: Plane16
+    400186: Plane16 1
+    400188: Plane17
+    400190: Plane17 1
+    400192: Plane18
+    400194: Plane18 1
+    400196: Plane19
+    400198: Plane20
+    400200: Rectangle09
+    400202: Sky01
+    400204: Sphere01
+    400206: Sphere02
+    400208: Sphere03
+    400210: Sphere07
+    400212: Sphere08
+    400214: Sphere09
+    400216: Sphere10
+    400218: Torus01
+    400220: Tube01
+    400222: Tube02
+    400224: Tube02_MeshPart0
+    400226: Tube02_MeshPart1
+    400228: Tube03
+    400230: Tube04
+    400232: Tube04_MeshPart0
+    400234: Tube04_MeshPart1
+    400236: Tube05
+    400238: Tube06
+    400240: Tube07
+    400242: Tube09
+    400244: Tube10
+    400246: Tube11
+    400248: Tube12
+    400250: Tube13
+    400252: Tube13_MeshPart0
+    400254: Tube13_MeshPart1
+    400256: Tube14
+    400258: Tube15
+    400260: Tube15_MeshPart0
+    400262: Tube15_MeshPart1
+    400264: Tube16
+    400266: Tube17
+    400268: //RootNode
+    400270: "\u4E2D\u56FD\u7ED307"
+    400272: "\u5170\u535A\u57FA\u5C3C"
+    400274: "\u5BF9\u8C6101"
+    400276: "\u5BF9\u8C6102"
+    400278: "\u5BF9\u8C6103"
+    400280: "\u5BF9\u8C6104"
+    400282: "\u5BF9\u8C6105"
+    400284: "\u5BF9\u8C6106"
+    400286: "\u5BF9\u8C6107"
+    400288: "\u5BF9\u8C6108"
+    400290: "\u5BF9\u8C6109"
+    400292: "\u5BF9\u8C6110"
+    400294: "\u5BF9\u8C6111"
+    400296: "\u5BF9\u8C6112"
+    400298: "\u5BF9\u8C6113"
+    400300: "\u5BF9\u8C6114"
+    400302: "\u5BF9\u8C6114 1"
+    400304: "\u5BF9\u8C6115"
+    400306: "\u5BF9\u8C6116"
+    400308: "\u5BF9\u8C6117"
+    400310: "\u5BF9\u8C6118"
+    400312: "\u5BF9\u8C6119"
+    400314: "\u5BF9\u8C6120"
+    400316: "\u5BF9\u8C6121"
+    400318: "\u5BF9\u8C6122"
+    400320: "\u5BF9\u8C6123"
+    400322: "\u5BF9\u8C6124"
+    400324: "\u5BF9\u8C6125"
+    400326: "\u5BF9\u8C6126"
+    400328: "\u5BF9\u8C6127"
+    400330: "\u5BF9\u8C6128"
+    400332: "\u5BF9\u8C6129"
+    400334: "\u5BF9\u8C6130"
+    400336: "\u5BF9\u8C6131"
+    400338: "\u5BF9\u8C6132"
+    400340: "\u5BF9\u8C6133"
+    400342: "\u5BF9\u8C6134\u58F3"
+    400344: "\u5BF9\u8C6134\u58F301"
+    400346: "\u5BF9\u8C6135"
+    400348: "\u5BF9\u8C6136"
+    400350: "\u5BF9\u8C6137"
+    400352: "\u5BF9\u8C6138"
+    400354: "\u5BF9\u8C6139"
+    400356: "\u5BF9\u8C6140"
+    400358: "\u5BF9\u8C6141"
+    400360: "\u5BF9\u8C6142"
+    400362: "\u5BF9\u8C6143"
+    400364: "\u5BF9\u8C6144"
+    400366: "\u5BF9\u8C6145"
+    400368: "\u5BF9\u8C6146"
+    400370: "\u5BF9\u8C6148"
+    400372: "\u5BF9\u8C6149"
+    400374: "\u5BF9\u8C6150"
+    400376: "\u5BF9\u8C6151"
+    400378: "\u5BF9\u8C6152"
+    400380: "\u5BF9\u8C6154"
+    400382: "\u5BF9\u8C6154_MeshPart0"
+    400384: "\u5BF9\u8C6154_MeshPart1"
+    400386: "\u5BF9\u8C6155"
+    400388: "\u5BF9\u8C6156"
+    400390: "\u5BF9\u8C6157"
+    400392: "\u5BF9\u8C6159"
+    400394: "\u5BF9\u8C6160"
+    400396: "\u5BF9\u8C6161"
+    400398: "\u5BF9\u8C6162"
+    400400: "\u5BF9\u8C6163"
+    400402: "\u5BF9\u8C6165"
+    400404: "\u5BF9\u8C6166"
+    400406: "\u5BF9\u8C6166_MeshPart0"
+    400408: "\u5BF9\u8C6166_MeshPart1"
+    400410: "\u5BF9\u8C6167"
+    400412: "\u5BF9\u8C6168"
+    400414: "\u7EC403"
+    400416: "\u7EC403 1"
+    400418: "\u7EC404"
+    400420: "\u7EC405"
+    400422: "\u7EC406"
+    400424: "\u7EC407"
+    400426: "\u7EC408"
+    400428: "\u7EC409"
+    400430: "\u7EC411"
+    400432: "\u7EC412"
+    400434: "\u7EC413"
+    2300000: Ayna_dikiz
+    2300002: Backlight
+    2300004: Backlight white
+    2300006: Backlight white01
+    2300008: Backlight01
+    2300010: "Backlight\u58F3"
+    2300012: "Backlight\u58F301"
+    2300014: Box01
+    2300016: Box02
+    2300018: Box03
+    2300020: Box06
+    2300022: Box07
+    2300024: Box08
+    2300026: Box09
+    2300028: Box10
+    2300030: Box11
+    2300032: ChamferBox02
+    2300034: ChamferBox03
+    2300036: ChamferBox04
+    2300038: ChamferBox05
+    2300040: ChamferBox06
+    2300042: Cylinder01
+    2300044: Cylinder02
+    2300046: Cylinder03
+    2300048: Cylinder04
+    2300050: Cylinder05
+    2300052: Cylinder06
+    2300054: Cylinder07
+    2300056: Cylinder08
+    2300058: Cylinder09
+    2300060: Cylinder10
+    2300062: Cylinder11
+    2300064: Cylinder29
+    2300066: Cylinder30
+    2300068: Cylinder31
+    2300070: Cylinder32
+    2300072: Glass
+    2300074: Glass05
+    2300076: Glass06
+    2300078: Glass2
+    2300080: Glass3
+    2300082: Line01
+    2300084: Line01 1
+    2300086: Line03
+    2300088: Line04
+    2300090: Line04 1
+    2300092: Line07
+    2300094: Line52
+    2300096: Object03
+    2300098: Plane01
+    2300100: Plane03
+    2300102: Plane03 1
+    2300104: Plane04
+    2300106: Plane04 1
+    2300108: Plane05
+    2300110: Plane05 1
+    2300112: Plane06
+    2300114: Plane06 1
+    2300116: Plane07
+    2300118: Plane07 1
+    2300120: Plane08
+    2300122: Plane08 1
+    2300124: Plane09
+    2300126: Plane09 1
+    2300128: Plane10
+    2300130: Plane10 1
+    2300132: Plane11
+    2300134: Plane11 1
+    2300136: Plane12
+    2300138: Plane12 1
+    2300140: Plane13
+    2300142: Plane13 1
+    2300144: Plane14
+    2300146: Plane14 1
+    2300148: Plane15
+    2300150: Plane15 1
+    2300152: Plane16
+    2300154: Plane16 1
+    2300156: Plane17
+    2300158: Plane17 1
+    2300160: Plane18
+    2300162: Plane18 1
+    2300164: Plane19
+    2300166: Plane20
+    2300168: Sphere01
+    2300170: Sphere02
+    2300172: Sphere03
+    2300174: Sphere07
+    2300176: Sphere08
+    2300178: Sphere09
+    2300180: Sphere10
+    2300182: Torus01
+    2300184: Tube01
+    2300186: Tube02_MeshPart0
+    2300188: Tube02_MeshPart1
+    2300190: Tube03
+    2300192: Tube04_MeshPart0
+    2300194: Tube04_MeshPart1
+    2300196: Tube05
+    2300198: Tube06
+    2300200: Tube07
+    2300202: Tube09
+    2300204: Tube10
+    2300206: Tube11
+    2300208: Tube12
+    2300210: Tube13_MeshPart0
+    2300212: Tube13_MeshPart1
+    2300214: Tube14
+    2300216: Tube15_MeshPart0
+    2300218: Tube15_MeshPart1
+    2300220: Tube16
+    2300222: Tube17
+    2300224: "\u5BF9\u8C6102"
+    2300226: "\u5BF9\u8C6103"
+    2300228: "\u5BF9\u8C6104"
+    2300230: "\u5BF9\u8C6105"
+    2300232: "\u5BF9\u8C6106"
+    2300234: "\u5BF9\u8C6107"
+    2300236: "\u5BF9\u8C6108"
+    2300238: "\u5BF9\u8C6109"
+    2300240: "\u5BF9\u8C6110"
+    2300242: "\u5BF9\u8C6111"
+    2300244: "\u5BF9\u8C6112"
+    2300246: "\u5BF9\u8C6114"
+    2300248: "\u5BF9\u8C6114 1"
+    2300250: "\u5BF9\u8C6115"
+    2300252: "\u5BF9\u8C6116"
+    2300254: "\u5BF9\u8C6118"
+    2300256: "\u5BF9\u8C6119"
+    2300258: "\u5BF9\u8C6120"
+    2300260: "\u5BF9\u8C6121"
+    2300262: "\u5BF9\u8C6122"
+    2300264: "\u5BF9\u8C6123"
+    2300266: "\u5BF9\u8C6124"
+    2300268: "\u5BF9\u8C6126"
+    2300270: "\u5BF9\u8C6127"
+    2300272: "\u5BF9\u8C6128"
+    2300274: "\u5BF9\u8C6129"
+    2300276: "\u5BF9\u8C6130"
+    2300278: "\u5BF9\u8C6131"
+    2300280: "\u5BF9\u8C6132"
+    2300282: "\u5BF9\u8C6133"
+    2300284: "\u5BF9\u8C6134\u58F3"
+    2300286: "\u5BF9\u8C6134\u58F301"
+    2300288: "\u5BF9\u8C6135"
+    2300290: "\u5BF9\u8C6136"
+    2300292: "\u5BF9\u8C6137"
+    2300294: "\u5BF9\u8C6138"
+    2300296: "\u5BF9\u8C6139"
+    2300298: "\u5BF9\u8C6140"
+    2300300: "\u5BF9\u8C6141"
+    2300302: "\u5BF9\u8C6142"
+    2300304: "\u5BF9\u8C6143"
+    2300306: "\u5BF9\u8C6144"
+    2300308: "\u5BF9\u8C6145"
+    2300310: "\u5BF9\u8C6146"
+    2300312: "\u5BF9\u8C6148"
+    2300314: "\u5BF9\u8C6149"
+    2300316: "\u5BF9\u8C6150"
+    2300318: "\u5BF9\u8C6152"
+    2300320: "\u5BF9\u8C6154_MeshPart0"
+    2300322: "\u5BF9\u8C6154_MeshPart1"
+    2300324: "\u5BF9\u8C6155"
+    2300326: "\u5BF9\u8C6156"
+    2300328: "\u5BF9\u8C6157"
+    2300330: "\u5BF9\u8C6159"
+    2300332: "\u5BF9\u8C6160"
+    2300334: "\u5BF9\u8C6161"
+    2300336: "\u5BF9\u8C6162"
+    2300338: "\u5BF9\u8C6163"
+    2300340: "\u5BF9\u8C6165"
+    2300342: "\u5BF9\u8C6166_MeshPart0"
+    2300344: "\u5BF9\u8C6166_MeshPart1"
+    2300346: "\u5BF9\u8C6167"
+    2300348: "\u5BF9\u8C6168"
+    3300000: Ayna_dikiz
+    3300002: Backlight
+    3300004: Backlight white
+    3300006: Backlight white01
+    3300008: Backlight01
+    3300010: "Backlight\u58F3"
+    3300012: "Backlight\u58F301"
+    3300014: Box01
+    3300016: Box02
+    3300018: Box03
+    3300020: Box06
+    3300022: Box07
+    3300024: Box08
+    3300026: Box09
+    3300028: Box10
+    3300030: Box11
+    3300032: ChamferBox02
+    3300034: ChamferBox03
+    3300036: ChamferBox04
+    3300038: ChamferBox05
+    3300040: ChamferBox06
+    3300042: Cylinder01
+    3300044: Cylinder02
+    3300046: Cylinder03
+    3300048: Cylinder04
+    3300050: Cylinder05
+    3300052: Cylinder06
+    3300054: Cylinder07
+    3300056: Cylinder08
+    3300058: Cylinder09
+    3300060: Cylinder10
+    3300062: Cylinder11
+    3300064: Cylinder29
+    3300066: Cylinder30
+    3300068: Cylinder31
+    3300070: Cylinder32
+    3300072: Glass
+    3300074: Glass05
+    3300076: Glass06
+    3300078: Glass2
+    3300080: Glass3
+    3300082: Line01
+    3300084: Line01 1
+    3300086: Line03
+    3300088: Line04
+    3300090: Line04 1
+    3300092: Line07
+    3300094: Line52
+    3300096: Object03
+    3300098: Plane01
+    3300100: Plane03
+    3300102: Plane03 1
+    3300104: Plane04
+    3300106: Plane04 1
+    3300108: Plane05
+    3300110: Plane05 1
+    3300112: Plane06
+    3300114: Plane06 1
+    3300116: Plane07
+    3300118: Plane07 1
+    3300120: Plane08
+    3300122: Plane08 1
+    3300124: Plane09
+    3300126: Plane09 1
+    3300128: Plane10
+    3300130: Plane10 1
+    3300132: Plane11
+    3300134: Plane11 1
+    3300136: Plane12
+    3300138: Plane12 1
+    3300140: Plane13
+    3300142: Plane13 1
+    3300144: Plane14
+    3300146: Plane14 1
+    3300148: Plane15
+    3300150: Plane15 1
+    3300152: Plane16
+    3300154: Plane16 1
+    3300156: Plane17
+    3300158: Plane17 1
+    3300160: Plane18
+    3300162: Plane18 1
+    3300164: Plane19
+    3300166: Plane20
+    3300168: Sphere01
+    3300170: Sphere02
+    3300172: Sphere03
+    3300174: Sphere07
+    3300176: Sphere08
+    3300178: Sphere09
+    3300180: Sphere10
+    3300182: Torus01
+    3300184: Tube01
+    3300186: Tube02_MeshPart0
+    3300188: Tube02_MeshPart1
+    3300190: Tube03
+    3300192: Tube04_MeshPart0
+    3300194: Tube04_MeshPart1
+    3300196: Tube05
+    3300198: Tube06
+    3300200: Tube07
+    3300202: Tube09
+    3300204: Tube10
+    3300206: Tube11
+    3300208: Tube12
+    3300210: Tube13_MeshPart0
+    3300212: Tube13_MeshPart1
+    3300214: Tube14
+    3300216: Tube15_MeshPart0
+    3300218: Tube15_MeshPart1
+    3300220: Tube16
+    3300222: Tube17
+    3300224: "\u5BF9\u8C6102"
+    3300226: "\u5BF9\u8C6103"
+    3300228: "\u5BF9\u8C6104"
+    3300230: "\u5BF9\u8C6105"
+    3300232: "\u5BF9\u8C6106"
+    3300234: "\u5BF9\u8C6107"
+    3300236: "\u5BF9\u8C6108"
+    3300238: "\u5BF9\u8C6109"
+    3300240: "\u5BF9\u8C6110"
+    3300242: "\u5BF9\u8C6111"
+    3300244: "\u5BF9\u8C6112"
+    3300246: "\u5BF9\u8C6114"
+    3300248: "\u5BF9\u8C6114 1"
+    3300250: "\u5BF9\u8C6115"
+    3300252: "\u5BF9\u8C6116"
+    3300254: "\u5BF9\u8C6118"
+    3300256: "\u5BF9\u8C6119"
+    3300258: "\u5BF9\u8C6120"
+    3300260: "\u5BF9\u8C6121"
+    3300262: "\u5BF9\u8C6122"
+    3300264: "\u5BF9\u8C6123"
+    3300266: "\u5BF9\u8C6124"
+    3300268: "\u5BF9\u8C6126"
+    3300270: "\u5BF9\u8C6127"
+    3300272: "\u5BF9\u8C6128"
+    3300274: "\u5BF9\u8C6129"
+    3300276: "\u5BF9\u8C6130"
+    3300278: "\u5BF9\u8C6131"
+    3300280: "\u5BF9\u8C6132"
+    3300282: "\u5BF9\u8C6133"
+    3300284: "\u5BF9\u8C6134\u58F3"
+    3300286: "\u5BF9\u8C6134\u58F301"
+    3300288: "\u5BF9\u8C6135"
+    3300290: "\u5BF9\u8C6136"
+    3300292: "\u5BF9\u8C6137"
+    3300294: "\u5BF9\u8C6138"
+    3300296: "\u5BF9\u8C6139"
+    3300298: "\u5BF9\u8C6140"
+    3300300: "\u5BF9\u8C6141"
+    3300302: "\u5BF9\u8C6142"
+    3300304: "\u5BF9\u8C6143"
+    3300306: "\u5BF9\u8C6144"
+    3300308: "\u5BF9\u8C6145"
+    3300310: "\u5BF9\u8C6146"
+    3300312: "\u5BF9\u8C6148"
+    3300314: "\u5BF9\u8C6149"
+    3300316: "\u5BF9\u8C6150"
+    3300318: "\u5BF9\u8C6152"
+    3300320: "\u5BF9\u8C6154_MeshPart0"
+    3300322: "\u5BF9\u8C6154_MeshPart1"
+    3300324: "\u5BF9\u8C6155"
+    3300326: "\u5BF9\u8C6156"
+    3300328: "\u5BF9\u8C6157"
+    3300330: "\u5BF9\u8C6159"
+    3300332: "\u5BF9\u8C6160"
+    3300334: "\u5BF9\u8C6161"
+    3300336: "\u5BF9\u8C6162"
+    3300338: "\u5BF9\u8C6163"
+    3300340: "\u5BF9\u8C6165"
+    3300342: "\u5BF9\u8C6166_MeshPart0"
+    3300344: "\u5BF9\u8C6166_MeshPart1"
+    3300346: "\u5BF9\u8C6167"
+    3300348: "\u5BF9\u8C6168"
+    4300000: Line07
+    4300002: Plane03
+    4300004: Plane17
+    4300006: Plane05
+    4300008: Plane16
+    4300010: Plane15
+    4300012: Plane08
+    4300014: Plane14
+    4300016: Plane10
+    4300018: Plane11
+    4300020: Plane12
+    4300022: Plane13
+    4300024: Plane18
+    4300026: Plane06
+    4300028: Plane04
+    4300030: Plane07
+    4300032: Plane09
+    4300034: Plane19
+    4300036: Plane20
+    4300038: Tube06
+    4300040: "\u5BF9\u8C6102"
+    4300042: Backlight
+    4300044: Backlight white
+    4300046: "\u5BF9\u8C6103"
+    4300048: "\u5BF9\u8C6104"
+    4300050: "\u5BF9\u8C6105"
+    4300052: "\u5BF9\u8C6106"
+    4300054: "\u5BF9\u8C6108"
+    4300056: "\u5BF9\u8C6109"
+    4300058: "\u5BF9\u8C6115"
+    4300060: "\u5BF9\u8C6119"
+    4300062: "\u5BF9\u8C6120"
+    4300064: "\u5BF9\u8C6121"
+    4300066: "\u5BF9\u8C6123"
+    4300068: "\u5BF9\u8C6124"
+    4300070: "\u5BF9\u8C6110"
+    4300072: "\u5BF9\u8C6112"
+    4300074: "\u5BF9\u8C6128"
+    4300076: "\u5BF9\u8C6131"
+    4300078: "\u5BF9\u8C6114"
+    4300080: "\u5BF9\u8C6107"
+    4300082: "Backlight\u58F3"
+    4300084: "\u5BF9\u8C6134\u58F3"
+    4300086: "\u5BF9\u8C6165"
+    4300088: Tube17
+    4300090: Backlight01
+    4300092: Backlight white01
+    4300094: "\u5BF9\u8C6163"
+    4300096: "\u5BF9\u8C6162"
+    4300098: "\u5BF9\u8C6161"
+    4300100: "\u5BF9\u8C6160"
+    4300102: "\u5BF9\u8C6159"
+    4300104: "\u5BF9\u8C6157"
+    4300106: "\u5BF9\u8C6156"
+    4300108: "\u5BF9\u8C6155"
+    4300110: "\u5BF9\u8C6154_MeshPart0"
+    4300112: "\u5BF9\u8C6154_MeshPart1"
+    4300114: "\u5BF9\u8C6152"
+    4300116: "\u5BF9\u8C6150"
+    4300118: "\u5BF9\u8C6149"
+    4300120: "\u5BF9\u8C6148"
+    4300122: "\u5BF9\u8C6146"
+    4300124: "\u5BF9\u8C6145"
+    4300126: "\u5BF9\u8C6142"
+    4300128: "Backlight\u58F301"
+    4300130: "\u5BF9\u8C6134\u58F301"
+    4300132: "\u5BF9\u8C6166_MeshPart0"
+    4300134: "\u5BF9\u8C6166_MeshPart1"
+    4300136: "\u5BF9\u8C6122"
+    4300138: "\u5BF9\u8C6116"
+    4300140: Line03
+    4300142: Box06
+    4300144: "\u5BF9\u8C6126"
+    4300146: Tube02_MeshPart0
+    4300148: Tube02_MeshPart1
+    4300150: Cylinder02
+    4300152: "\u5BF9\u8C6130"
+    4300154: "\u5BF9\u8C6129"
+    4300156: Tube04_MeshPart0
+    4300158: Tube04_MeshPart1
+    4300160: Cylinder04
+    4300162: "\u5BF9\u8C6133"
+    4300164: "\u5BF9\u8C6132"
+    4300166: "\u5BF9\u8C6127"
+    4300168: "\u5BF9\u8C6114"
+    4300170: Sphere02
+    4300172: Sphere07
+    4300174: Tube05
+    4300176: Tube07
+    4300178: Tube09
+    4300180: "\u5BF9\u8C6144"
+    4300182: Line04
+    4300184: "\u5BF9\u8C6135"
+    4300186: "\u5BF9\u8C6136"
+    4300188: Sphere08
+    4300190: Sphere09
+    4300192: Tube10
+    4300194: Tube11
+    4300196: Tube12
+    4300198: Tube15_MeshPart0
+    4300200: Tube15_MeshPart1
+    4300202: Cylinder07
+    4300204: "\u5BF9\u8C6140"
+    4300206: "\u5BF9\u8C6141"
+    4300208: Tube13_MeshPart0
+    4300210: Tube13_MeshPart1
+    4300212: Cylinder05
+    4300214: "\u5BF9\u8C6138"
+    4300216: "\u5BF9\u8C6139"
+    4300218: Box07
+    4300220: "\u5BF9\u8C6143"
+    4300222: Ayna_dikiz
+    4300224: Plane03
+    4300226: Plane17
+    4300228: Plane05
+    4300230: Plane16
+    4300232: Plane15
+    4300234: Plane08
+    4300236: Plane14
+    4300238: Plane10
+    4300240: Plane11
+    4300242: Plane12
+    4300244: Plane13
+    4300246: Plane18
+    4300248: Plane06
+    4300250: Plane04
+    4300252: Plane07
+    4300254: Plane09
+    4300256: ChamferBox06
+    4300258: ChamferBox04
+    4300260: ChamferBox05
+    4300262: Box10
+    4300264: Box11
+    4300266: Box09
+    4300268: "\u5BF9\u8C6168"
+    4300270: Cylinder29
+    4300272: Cylinder30
+    4300274: Cylinder31
+    4300276: Cylinder32
+    4300278: "\u5BF9\u8C6167"
+    4300280: "\u5BF9\u8C6111"
+    4300282: Line01
+    4300284: Cylinder09
+    4300286: Cylinder11
+    4300288: Cylinder10
+    4300290: Sphere10
+    4300292: Sphere03
+    4300294: Box08
+    4300296: Box01
+    4300298: Sphere01
+    4300300: Plane01
+    4300302: Line52
+    4300304: "\u5BF9\u8C6118"
+    4300306: Glass
+    4300308: Glass2
+    4300310: Glass3
+    4300312: Glass05
+    4300314: Glass06
+    4300316: Cylinder06
+    4300318: Tube14
+    4300320: Tube16
+    4300322: Cylinder08
+    4300324: Cylinder01
+    4300326: Tube01
+    4300328: Cylinder03
+    4300330: Tube03
+    4300332: Torus01
+    4300334: Line01
+    4300336: Box03
+    4300338: ChamferBox03
+    4300340: Box02
+    4300342: ChamferBox02
+    4300344: Object03
+    4300346: Line04
+    4300348: "\u5BF9\u8C6137"
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0

@@ -4,7 +4,72 @@ timeCreated: 1465244241
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: Box095
+    100002: //RootNode
+    100004: Circle017
+    100006: Cylinder042
+    100008: Cylinder043
+    100010: Cylinder044
+    100012: Cylinder045
+    100014: Object1402
+    100016: Object1402_MeshPart0
+    100018: Object1402_MeshPart1
+    100020: Object1402_MeshPart2
+    100022: Object1402_MeshPart3
+    100024: Sphere003
+    100026: Sphere003 1
+    400000: Box095
+    400002: //RootNode
+    400004: Circle017
+    400006: Cylinder042
+    400008: Cylinder043
+    400010: Cylinder044
+    400012: Cylinder045
+    400014: Object1402
+    400016: Object1402_MeshPart0
+    400018: Object1402_MeshPart1
+    400020: Object1402_MeshPart2
+    400022: Object1402_MeshPart3
+    400024: Sphere003
+    400026: Sphere003 1
+    2300000: Box095
+    2300002: Circle017
+    2300004: Cylinder042
+    2300006: Cylinder043
+    2300008: Cylinder044
+    2300010: Cylinder045
+    2300012: Object1402_MeshPart0
+    2300014: Object1402_MeshPart1
+    2300016: Object1402_MeshPart2
+    2300018: Object1402_MeshPart3
+    2300020: Sphere003
+    2300022: Sphere003 1
+    3300000: Box095
+    3300002: Circle017
+    3300004: Cylinder042
+    3300006: Cylinder043
+    3300008: Cylinder044
+    3300010: Cylinder045
+    3300012: Object1402_MeshPart0
+    3300014: Object1402_MeshPart1
+    3300016: Object1402_MeshPart2
+    3300018: Object1402_MeshPart3
+    3300020: Sphere003
+    3300022: Sphere003 1
+    4300000: Object1402_MeshPart0
+    4300002: Object1402_MeshPart1
+    4300004: Object1402_MeshPart2
+    4300006: Object1402_MeshPart3
+    4300008: Sphere003
+    4300010: Cylinder045
+    4300012: Cylinder044
+    4300014: Cylinder043
+    4300016: Sphere003
+    4300018: Circle017
+    4300020: Cylinder042
+    4300022: Box095
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
